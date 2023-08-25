@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#corpo {
+    background-color: #f8f8f8;
+}
+#principal {
+    margin: 20px 20px;
+}
+#nome-produto {
+    font-size: 220%;
+    font-family: helvetica;
+    grid-column: 2;
+    grid-row: 1;
+}
+#img-product {
+    width: 80%;
+    border: 1px solid #868686;
+    grid-column: 1;
+}
+.container {
+    border: 1px solid #000;
+}
+#topo {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-rows: 40px 30px 50vh;
+    row-gap: 20px;
+}
+#detalhes {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+#valor-produto {
+    font-size: 18px;
+    font-family: helvetica;
+    grid-column: 2;
+}
+#comprar {
+    background-color: #7801ff;
+    border: 1px outset #202020;
+    border-radius: 30px;
+    padding: 12px;
+    width: 200px;
+    height: 60px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s, transform 0.5s;
+    cursor: pointer;
+    grid-column: 2;
+}
+#comprar:hover {
+    background-color: #7900b1;
+    transform: scale(1.02);
+}
+#logo-insta {
+    width: 30px;
+    height: 30px;
+}
+#descricao-produto {
+    width: 90%;
+    padding: 20px 0;
+    font-family: arial;
+    color: #4b4b4b;
+}
+#description {
+    padding-top: 0%;
+    border-top: 1px solid #808080;
+}
+@media screen and (min-width: 1310px){
+    #description {
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 1310px){
+    #topo {
+        row-gap: 50px;
+    }
+    #valor-produto {
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+	#topo {
+		row-gap: 60px;
+        grid-template-rows: 40px 30px 15vh;
+    }
+    #comprar {
+        width: 150px;
+        height: 50px;
+        padding: 20px;
+        gap: 1px;
+    }
+    #nome-produto {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 480px) {
+	#topo {
+		display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    #img-product {
+        width: 100%;
+    }
+    #bt-compra {
+        display: flex;
+        justify-content: center;
+    }
+}
+ 

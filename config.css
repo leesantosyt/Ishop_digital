@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#corpo {
+    background-color: #202020;
+}
+#cima {
+    background-color: #151515;
+    padding: 10px;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+}
+#container-titulo {
+    display: flex;
+    justify-content: center;
+}
+#titulo {
+    height: 60px;
+    background-color: #fc2c2c;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-family: arial;
+}
+#principal {
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+#info {
+    width: 500px;
+    height: 20px;
+    background-color: #000;
+}
+#text-info {
+    color: #FFF;
+    font-size: 15px;
+    padding-left: 17px;
+}
+#container-products {
+    width: 500px;
+    background-color: #151515;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

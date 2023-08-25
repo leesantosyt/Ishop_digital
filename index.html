@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishop Digital - Sempre mais tecnologia</title>
+    <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="module" defer src="script.js"></script>
+    <script type="module" defer src="headerFooter.js"></script>
+</head>
+<body id="corpo">
+    <header id="cima">
+        <div id="logo-e-pesquisa">
+        <img id="logo" src="assets/logo_circulo.png">
+            <div>
+                <div id="barra-busca">
+                    <input id="pesquisa" type="text" placeholder="Pesquisar">
+                    <button id="bt-pesquisa">&#x1F50E;</button>
+                </div>
+                <div id="agora">
+                    <ul id="tentativas-pesquisa">
+                        <li class="item-tent"></li>
+                        <li class="item-tent"></li>
+                        <li class="item-tent"></li>
+                        <li class="item-tent"></li>
+                        <li class="item-tent"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav id="navigation_principal">
+            <a class="navigation" id="bt-produtos">Produtos</a>
+            <a class="navigation">Mais</a>
+            <a class="navigation">Loja</a>
+            <a class="navigation">Ofertas</a>
+        </nav>
+    </header>
+    <main id="principal">
+        <picture>
+            <source media="(max-width: 720px)" srcset="assets/img_inicio-mobile.png">
+            <img id="img-inicio" src="assets/img_inicio.png">
+        </picture>
+        <div id="links">
+            <div class="container">
+                <img class="img-produto" src="assets/relogio.jpeg">
+                <div class="info-container"></div>
+            </div>
+        </div>
+    </main>
+    <footer id="baixo">
+        <p>Todos os direitos reservados&copy;</p>
+    </footer>
+</body>
+</html>

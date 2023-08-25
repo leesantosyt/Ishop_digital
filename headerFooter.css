@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+/*Início-Header*/
+#cima {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    column-gap: 48%;
+}
+#agora {
+    position: absolute;
+    padding-left: 20px;
+}
+#tentativas-pesquisa {
+    background-color: #FFF;
+    width: 50vw;
+    border: 0.4px solid #494949;
+    list-style-type: none;
+    display: none;
+    border-radius: 10px;
+}
+.item-tent {
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+}
+#busca {
+    display: flex;
+    flex-direction: column;
+}
+#logo-e-pesquisa {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+#barra-busca {
+    display: flex;
+    align-items: center;
+}
+#pesquisa {
+    width: 50vw;
+    height: 21px;
+    margin-left: 20px;
+    border-radius: 10px 0px 0 10px;
+    padding: 12px;
+}
+#pesquisa:focus {
+    outline: 0.1px solid #4154ff;
+}
+#bt-pesquisa {
+    border-radius: 0 10px 10px 0;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+#navigation_principal {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navigation {
+    color: #FFF;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#bt-produtos {
+    padding: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#baixo {
+    text-align: center;
+    padding: 10px 10px;
+    color: #FFF;
+    background-color: #202020;
+    margin-top: 30rem;
+}
+/*Final-Header*/
